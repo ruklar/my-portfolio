@@ -25,19 +25,20 @@ body {
 
 /****** HEADER ******/
 header {
-    height: 800px;
+    height: 787px;
     background: url('../img/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-header image {
-    padding: 20px 0px;
+header img {
+    margin: 5px;
+    padding: 5px 20px 20px 0px;
     float: left;
 }
 
 nav {
-    padding: 60px 65px 65px 0px;
+    padding: 35px 65px 65px 0px;
 }
 
 nav ul li {
@@ -154,7 +155,7 @@ header p {
     font-size: 18px;
     line-height: 30px;
     color: #3e3f3f;
-    padding: 0px 35px;
+    padding: 0px 50px;
 }
 
 /****** CONTACT ******/
@@ -166,6 +167,10 @@ header p {
       padding: 10px 0;
 }
 
+#contact img#contact-img {
+  margin-left: 50px;
+  border: 12px solid #ffffff;
+}
 #contact h3 {
       padding-left: 115px;
       font-weight: bold;
